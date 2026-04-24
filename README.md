@@ -27,9 +27,14 @@ Subject to: $0 \le \alpha_i \le C$ and $\sum \alpha_i y_i = 0$
    python3 examples/regime_detection.py
    ```
 
+## Visualizing Results
+
+![Market Regime Detection](images/regime_plot.png)
+
 ## Experiment Results
 Based on historical SPY sample data, the model achieved:
 - **Accuracy:** 60.00%
 - **Recall:** 1.00 (Highly sensitive to upward market movements)
+- **Training Time:** 79.21 seconds for 20,000 samples (Optimized via Kernel Caching & Keerthi Heuristics)
 
 See `examples/RESULTS.md` for the full confusion matrix and classification report.
