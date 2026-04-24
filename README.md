@@ -29,7 +29,10 @@ Subject to: $0 \le \alpha_i \le C$ and $\sum \alpha_i y_i = 0$
 
 ## Visualizing Results
 
-![Market Regime Detection](images/regime_plot.png)
+### Model Diagnostics
+![Confidence Distribution](images/confidence_dist.png)
+![Confusion Matrix](images/confusion_matrix.png)
+![Feature Space](images/feature_space.png)
 
 ## Experiment Results
 Based on historical SPY sample data, the model achieved:
