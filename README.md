@@ -26,3 +26,10 @@ Subject to: $0 \le \alpha_i \le C$ and $\sum \alpha_i y_i = 0$
    ```bash
    python3 examples/regime_detection.py
    ```
+
+## Experiment Results
+Based on historical SPY sample data, the model achieved:
+- **Accuracy:** 60.00%
+- **Recall:** 1.00 (Highly sensitive to upward market movements)
+
+See `examples/RESULTS.md` for the full confusion matrix and classification report.
